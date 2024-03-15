@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-// read only provider pointing to sepolia. It allows read only access to the sepolia blockchain
+// read only provider pointing to mumbai. It allows read only access to the mumbai blockchain
 export const readOnlyProvider = new ethers.JsonRpcProvider(
     import.meta.env.VITE_rpc_url
 );
